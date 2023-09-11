@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 export default function EditarEmpleado() {
 
-    const urlBase = "http://localhost:8080/crud-app/empleados";
+    const urlBase = "https://crudspirng-production.up.railway.app/crud-app/empleados";
 
     let navigation = useNavigate();
 

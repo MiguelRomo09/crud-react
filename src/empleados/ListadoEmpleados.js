@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function ListadoEmpleados() {
 
-    const urlBase = "http://localhost:8080/crud-app/empleados";
+    const urlBase = "https://crudspirng-production.up.railway.app/crud-app/empleados";
 
     const[empleados, setEmpleados] = useState([]);
 

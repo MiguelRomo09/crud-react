@@ -19,7 +19,7 @@ export default function AgregarEmpleado() {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        const urlBase = "http://localhost:8080/crud-app/empleados";
+        const urlBase = "https://crudspirng-production.up.railway.app/crud-app/empleados";
         await axios.post(urlBase, empleado);
         navigation('/');
     }
